@@ -28,7 +28,7 @@ Exploratory data analysis for world real estate data
 ---
 
 ## Directory Structure
-
+```text
 ├── Data/
 │   ├── worlds_real_estate_data.csv       # Original raw dataset
 │   └── worlds_real_estate_cleaned.csv    # Pristine, optimized dataset
