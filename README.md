@@ -1,5 +1,5 @@
 # RealEstate_EDA
-Exploratory data analysis for world real estate data
+Exploratory data analysis for world real estate data (Problem: Corporate portfolio expansion & diversification strategy)
 
 1. **Exploratory Data Analysis (Data Info)**: Initial diagnostic assessment mapping schema boundaries, memory footprint, data distributions, and extreme underlying anomalies.
 2. **Data Handling & Cleaning**: Advanced regular expression parsing to clean raw measurement labels (`" m²"` suffixes), multi-criteria logical masking to neutralize physical anomalies (e.g., properties with 43 bathrooms, 2009 bedrooms, 1 m^2 apartment area, or negative floor levels), and schema type casting using Pandas' specialized **Nullable Integer Types (`Int64`)** to ensure mathematical integrity.
